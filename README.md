@@ -9,6 +9,9 @@ Follow these steps to clone the repository, set up the environment, and run the 
 ### Prerequisites
 
 - Ensure that **Docker** is installed and running on your machine.
+  ```bash
+   sudo apt update
+   sudo apt install -y docker-ce docker-ce-cli containerd.io
 
 ### Installation
 
@@ -26,7 +29,7 @@ Follow these steps to clone the repository, set up the environment, and run the 
      ```bash
     ./install
 
-**Website should already be running, if not you can**:
+### **Website should already be running, if not you can**:
 
 1. Run the website
     ```bash
