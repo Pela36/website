@@ -1,7 +1,44 @@
+# Byte-compiled / optimized / DLL files
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
-*.db
+*.pyd
+
+# Virtual environment folder
 venv/
-.DS_Store
+ENV/
+env/
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Flask session and cache files
+instance/
 *.log
+
+# SQLite database file
+*.db
+
+# Docker files
+website.tar
+*.tar
+*.tar.gz
+*.log
+
+# Ignore Docker images and containers generated files
+*.pid
+*.sock
+
+# System and IDE-specific files
+.DS_Store
+*.swp
+*.swo
+.vscode/
+.idea/
+*.iml
+
+# Git files
+.gitattributes
+
