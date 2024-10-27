@@ -48,7 +48,4 @@ Follow these steps to clone the repository, set up the environment, and run the 
 1. **This command**:
    
     ```bash
-    docker stop website-container
-
-
-    
+    docker stop website-container    
