@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Build the Docker image
+echo "Building Docker image..."
+docker build -t my-website .
+
+# Run the container
+echo "Updating permissions..."
+chmod +x run.bash
+echo "Running the container..."
+./run.bash
