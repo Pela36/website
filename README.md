@@ -24,7 +24,7 @@ Follow these steps to clone the repository, set up the environment, and run the 
     chmod +x install
 4. **Run the installer**"
      ```bash
-    ./install.bash
+    ./install
 
 **Website should already be running, if not you can**:
 
